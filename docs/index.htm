@@ -10,7 +10,7 @@
 
     <!-- Meta tags for Zotero grab citation -->
     <meta name="citation_title"
-          content="NeuralUDF: Learning Unsigned Distance Fields for Multi-view Reconstruction of Surfaces with Arbitrary Topologies">
+          content="NeTO:Neural Reconstruction of Transparent Objects with Self-Occlusion Aware Refraction-Tracing">
     <meta name="citation_author" content="Long, Xiaoxiao">
     <meta name="citation_author" content="Lin, Cheng">
     <meta name="citation_author" content="Liu, Lingjie">
@@ -26,18 +26,12 @@
     <meta name="robots" content="index,follow">
     <meta name="description"
           content="
-		We present a novel method, called NeuralUDF,
-		for reconstructing surfaces with arbitrary topologies from 2D images via volume rendering.
-		Recent advances in neural rendering based reconstruction have achieved compelling results.
-		However, these methods are limited to objects with closed surfaces since they adopt Signed Distance Function (SDF)
-		as surface representation which requires the target shape to be divided into inside and outside.
-		In this paper, we propose to represent surfaces as the Unsigned Distance Function (UDF) and develop
-		a new volume rendering scheme to learn the neural UDF representation.
-    Specifically, a new density function that correlates the property of UDF with the volume rendering scheme
-    is introduced for robust optimization of the UDF fields.
-    Experiments on the DTU and DeepFashion3D datasets show that our method not only enables high-quality
-    reconstruction of non-closed shapes with complex typologies, but also achieves comparable performance
-    to the SDF based methods on the reconstruction of closed surfaces.
+		 We present a novel method, called NeTO, for capturing 3D geometry of solid transparent objects from 2D images via volume rendering. 
+    Reconstructing transparent objects is a very challenging task, which is ill-suited for general-purpose reconstruction techniques due to the specular light transport phenomena.
+    Although existing refraction-tracing based methods, designed specially for this task, achieve impressive results, they still suffer from unstable optimization and loss of fine details, since the explicit surface representation they adopted is difficult to be optimized, and the self-occlusion problem is ignored for refraction-tracing.
+    In this paper, we propose to leverage implicit Signed Distance Function (SDF) as surface representation, and optimize the SDF field via volume rendering with a self-occlusion aware refractive ray tracing. 
+    The implicit representation enables our method to be capable of reconstructing high-quality reconstruction even with a limited set of images, and the self-occlusion aware strategy makes it possible for our method to accurately reconstruct the self-occluded regions. 
+    Experiments show that our method achieves faithful reconstruction results and outperforms prior works by a large margin.
 		">
     <link rel="author" href="https://www.xxlong.site/"/>
 
