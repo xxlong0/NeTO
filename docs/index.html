@@ -68,16 +68,14 @@
                 with Self-Occlusion Aware Refraction-Tracing </h1>
                  
             <div class="authors">
-
+		 <a  >Zongcheng Li</a><sup>3</sup>&#160;&#160;
                 <a href="https://www.xxlong.site/" target="_blank">Xiaoxiao Long</a><sup> 1</sup>&#160;&#160;
                 <!-- <a href="https://clinplayer.github.io/" target="_blank">Cheng Lin</a><sup>2</sup>&#160;&#160;
-                <a href="https://lingjie0206.github.io/" target="_blank">Lingjie Liu</a><sup>3</sup>&#160;&#160;
-                <a href="https://liuyuan-pal.github.io/" target="_blank">Yuan Liu</a><sup>1</sup>&#160;&#160;
-                <a href="https://scholar.google.com.sg/citations?user=KvXvmawAAAAJ&hl=en" target="_blank">Peng Wang</a><sup>1</sup>&#160;&#160;
-                <a href="https://people.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a><sup>3</sup>&#160;&#160;
-                <a href="https://homepages.inf.ed.ac.uk/tkomura/" target="_blank">Taku Komura</a><sup>1</sup>&#160;&#160; -->
+		<a  >Yusen Wang</a><sup>3</sup>&#160;&#160;
+		<a  >Tuo Cao</a><sup>3</sup>&#160;&#160;
+		<a  >Fei Luo</a><sup>3</sup>&#160;&#160;
                 <a href="https://www.cs.hku.hk/people/academic-staff/wenping/">Wenping Wang</a><sup> 2</sup>&#160;&#160;
-				 <a href="http://graphvision.whu.edu.cn/">Chunxia Xiao</a><sup> 3</sup>&#160;&#160;
+		<a href="http://graphvision.whu.edu.cn/">Chunxia Xiao</a><sup> 3</sup>&#160;&#160;
             </div>
 
             <div class="affiliations">
@@ -140,43 +138,7 @@
         </div>
 
 
-        <div class="section introduction">
-            <h2>Introduction</h2><br>
-            <div class="row" style="margin-bottom:5px">
-                <div class="col" style="text-align:center">
-                <video width="70%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
-                    <source src="./videos/intro.mp4" type="video/mp4">
-                </video>
-
-                </div>
-
-            </div>
-
-            <p>
-                We aim to reconstruct the surfaces $\mathcal{S}$ of a solid transparent object from a set of posed object masks and 
-                the correspondences between the camera view rays and locations on the background under each viewpoint.
-
-                Specifically, We propose to adopt implicit Signed Distance Function (SDF) as surface representation and leverage volume rendering~\cite{wang2021neus} to enforce the refraction-tracing consistency, which enables stable and robust optimization.
-                Moreover, we propose a simple but effective strategy to identify the rays passing through self-occluded parts, and then exclude these rays in the optimization to avoid mistakenly enforcing refraction-tracing consistency. 
-            </p>
-            <!--            </p>-->
-        </div>
-
-        <!--        full video-->
-        <!--        <div class="section abstract">-->
-        <!--            <h2>Full Video</h2><br>-->
-        <!--            <center>-->
-        <!--                &lt;!&ndash; <iframe width="640" height="360" src="data/video.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> &ndash;&gt;-->
-        <!--                <iframe width="640" height="360" src="https://www.youtube.com/embed/RFqPwH7QFEI" frameborder="0"-->
-        <!--                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"-->
-        <!--                        allowfullscreen></iframe>-->
-        <!--                &lt;!&ndash;iframe src="./data/video.mp4" allow="autoplay; encrypted-media" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="560" height="315" frameborder="0"></iframe&ndash;&gt;-->
-        <!--                &lt;!&ndash;<p style="font-size:11px; text-align:center">-->
-        <!--                Download Video: <a href="data/video.mp4" target="_blank">HD</a> (MP4, 111 MB)-->
-        <!--            </p>&ndash;&gt;-->
-        <!--            </center>-->
-        <!--        </div>-->
-
+ 
         <div class="section abstract">
             <h2>Comparisons on DRT dataset with sparse views</h2>
             <p>
