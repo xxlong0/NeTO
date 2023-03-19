@@ -2,7 +2,7 @@
 
 # NeTO: NeTO:Neural Reconstruction of Transparent Objects with Self-Occlusion Aware Refraction-Tracing
 
-## [Project Page](https://www.xxlong.site/NeTO/) | [Paper](https://arxiv.org/abs/2211.14173) 
+## [Project Page](https://www.xxlong.site/NeTO/) | [Paper](./doc/NeTO_ARXIV.pdf) 
 
 we will release the code soon.
 
