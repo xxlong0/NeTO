@@ -1,6 +1,6 @@
 
 
-# NeTO: NeTO:Neural Reconstruction of Transparent Objects with Self-Occlusion Aware Refraction-Tracing
+# NeTO:Neural Reconstruction of Transparent Objects with Self-Occlusion Aware Refraction-Tracing (ICCV 2023)
 
 ## [Project Page](https://www.xxlong.site/NeTO/) | [Paper](./docs/NeTO_ARXIV.pdf) 
 
