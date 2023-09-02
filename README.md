@@ -23,8 +23,8 @@ we will release the code soon.
 Clone this repository
 
 ```shell
-git clone https://github.com/Totoro97/NeuS.git
-cd NeuS
+git clone https://github.com/xxlong0/NeTO.git
+cd NeTO
 pip install -r requirements.txt
 ```
 
