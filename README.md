@@ -41,7 +41,7 @@ Here the `cameras_xxx.npz` follows the data format in [IDR](https://github.com/l
 Clone this repository
 ```shell
 git clone https://github.com/xxlong0/NeTO.git
-cd NeTO/code
+cd NeTO
 conda create -n neto python=3.8
 conda activate neto
 pip install -r requirements.txt
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 </details>
 
 ### Running
-- **Trainingk**
+- **Training**
 
 ```shell
 python NeTO.py --mode train --conf ./confs/base.conf --case <case_name>
@@ -77,11 +77,6 @@ python NeTO.py --mode validate_mesh --conf <config_file> --case <case_name> --is
 
 The corresponding mesh can be found in `exp/<case_name>/<exp_name>/meshes/<iter_steps>.ply`.
 
-### Train NeuS with your custom data
-```shell
-cd utils/data_process
-python process_transparent.py --path <image path> --mode <case_name>  
-```
 
 ## Citation
 
