@@ -59,7 +59,7 @@ pip install -r requirements.txt
   - tqdm==4.50.2
   - scipy==1.7.0
   - PyMCubes==0.1.2
-
+  - tensorboard==2.14.0
 </details>
 
 ### Running
